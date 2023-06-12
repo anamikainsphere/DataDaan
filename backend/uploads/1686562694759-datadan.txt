@@ -1,0 +1,8 @@
+curl --location 'localhost:4500/upload' \
+--form 'readmeText=@"/C:/Users/insph/OneDrive/Pictures/Screenshots/2023-02-28 (2).png"' \
+--form 'organizationName="telequiest"' \
+--form 'officerName="R.K SHUKLA"' \
+--form 'designation="OFFICER"' \
+--form 'mailto:emailid="rohit878t@gmail.com"' \
+--form 'contactNumber="9876543211"' \
+--form 'file=@"/C:/Users/insph/OneDrive/Pictures/Screenshots/2023-02-28 (2).png"'
